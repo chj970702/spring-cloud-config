@@ -1,8 +1,10 @@
 # AuthenticationFilter에서 token 생성을 위한 값
 token:
   expiration_time: 86400000
-  secret: user_token_10_20# 임의값
+  secret: user_token_10_20 #임의값
 
 gateway:
   ip: 175.209.75.247
   
+order_service:
+  url: http://127.0.0.1:8000/order-service/%s/orders
