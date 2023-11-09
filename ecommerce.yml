@@ -7,4 +7,4 @@ gateway:
   ip: 175.209.75.247
   
 order_service:
-  url: http://127.0.0.1:8000/order-service/%s/orders
+  url: http://ORDER-SERVICE/order-service/%s/orders
